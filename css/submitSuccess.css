@@ -1,0 +1,455 @@
+
+@font-face {
+                          font-family: "SFProDisplay-Semibold";
+                          src: url('../fonts/SF-Pro-Display-Semibold.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Moon2.0-Regular";
+                          src: url('../fonts/Moon2.0-Regular.otf') format("opentype");
+                        }
+                        
+.submitsuccess {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(43, 41, 41, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-animate-enter {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.anima-animate-enter1 {
+  opacity             : 0;
+  transform           : rotate(25deg);
+  display             : block;
+  -webkit-animation   : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@-moz-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@-o-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+.submitsuccess .updatebutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 499px;
+  height              : 50px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1050px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.submitsuccess .updatebutton:hover {
+  filter              : grayscale(100%);
+}
+.submitsuccess .updatebutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.submitsuccess .updatebutton .miscbigbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.submitsuccess .updatebutton .miscbigbutton:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.submitsuccess .updatebutton .miscbigbutton .background1 {
+  background-color    : rgba(245, 165, 35, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.submitsuccess .updatebutton .miscbigbutton .button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 283px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.5px;
+  line-height         : 20.0px;
+}
+.submitsuccess .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 283px;
+  height              : 308px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.submitsuccess .logo .logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 308px;
+  width               : 186px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.submitsuccess .youaresubscribed {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 524px;
+  height              : auto;
+  width               : 717px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Heavy", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(39, 125, 47, 1.0);
+  text-align          : left;
+  line-height         : 49.0px;
+}
+.submitsuccess .navimumbaicampus {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 74px;
+  width               : 371px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.submitsuccess .textenteranotheremail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 449px;
+  height              : 30px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1038px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Heavy", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.submitsuccess .textenteranotheremail::placeholder {
+  color               : rgba(255, 255, 255, 0.6);
+}
+.submitsuccess .welcometoignite201 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 339px;
+  height              : auto;
+  width               : 653px;
+  position            : absolute;
+  margin              : 0;
+  left                : 397px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-UltraLight", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(247, 243, 248, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+}
+.submitsuccess .welcometoignite201 .span1 {
+  text-align          : justify;
+  line-height         : 49.0px;
+}
+.submitsuccess .welcometoignite201 .span2 {
+  font-family         : "Moon2.0-Regular", Helvetica, Arial, serif;
+  text-align          : justify;
+  line-height         : 43.0px;
+}
+.submitsuccess .welcometoignite201 .span3 {
+  text-align          : justify;
+  line-height         : 49.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

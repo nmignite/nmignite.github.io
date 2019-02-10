@@ -8,6 +8,375 @@
                           src: url('../fonts/Moon2.0-Regular.otf') format("opentype");
                         }
                         
+.bp3-tabletportrait {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(43, 41, 41, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-anima-animate-enter {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp3-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp3-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp3-anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp3-anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp3-anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp3-anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp3-tabletportrait .bp3-rectangle2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 993px;
+  height              : 10px;
+  box-sizing          : border-box;
+  width               : 613px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-tabletportrait .bp3-thiswebsiteiscurr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 527px;
+  height              : auto;
+  width               : 653px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-UltraLight", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(247, 243, 248, 1.0);
+  text-align          : center;
+  line-height         : 49.0px;
+}
+.bp3-tabletportrait .bp3-pleasesubsribetot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 777px;
+  height              : auto;
+  width               : 717px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-UltraLight", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 49.0px;
+}
+.bp3-tabletportrait .bp3-pleasesubsribetot .bp3-span1 {
+  
+}
+.bp3-tabletportrait .bp3-pleasesubsribetot .bp3-span2 {
+  color               : rgba(243, 241, 244, 1.0);
+}
+.bp3-tabletportrait .bp3-pleasesubsribetot .bp3-span3 {
+  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
+  color               : rgba(243, 241, 244, 1.0);
+}
+.bp3-tabletportrait .bp3-pleasesubsribetot .bp3-span4 {
+  color               : rgba(243, 241, 244, 1.0);
+}
+.bp3-tabletportrait .bp3-navimumbaicampus {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 62px;
+  width               : 311px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-tabletportrait .bp3-logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 126px;
+  height              : 371px;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 273px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-tabletportrait .bp3-logo .bp3-logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 371px;
+  width               : 224px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-tabletportrait .bp3-textenteremailaddresshere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 699px;
+  height              : 30px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Heavy", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.bp3-tabletportrait .bp3-textenteremailaddresshere::placeholder {
+  color               : rgba(255, 255, 255, 0.6);
+}
+.bp3-tabletportrait .bp3-updatebutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 729px;
+  height              : 50px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 231px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-tabletportrait .bp3-updatebutton:hover {
+  filter              : grayscale(100%);
+}
+.bp3-tabletportrait .bp3-updatebutton .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-tabletportrait .bp3-updatebutton .bp3-miscbigbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-tabletportrait .bp3-updatebutton .bp3-miscbigbutton:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.bp3-tabletportrait .bp3-updatebutton .bp3-miscbigbutton .bp3-background1 {
+  background-color    : rgba(245, 165, 35, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-tabletportrait .bp3-updatebutton .bp3-miscbigbutton .bp3-button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 283px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.5px;
+  line-height         : 20.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
 .bp4-mobileportrait {
   width               : 100%;
   min-width           : 320px;
@@ -169,90 +538,6 @@ div {
   color               : rgba(243, 241, 244, 1.0);
   line-height         : 33.0px;
 }
-.bp4-mobileportrait .bp4-miscbigbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 628px;
-  height              : 50px;
-  width               : 287px;
-  position            : absolute;
-  margin              : 0;
-  left                : 17px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp4-mobileportrait .bp4-miscbigbutton .bp4-background {
-  background-color    : rgba(0, 122, 255, 1.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 287px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp4-mobileportrait .bp4-miscbigbutton .bp4-button {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : auto;
-  width               : 253px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "SFProDisplay-Semibold", Helvetica, Arial, serif;
-  font-size           : 17.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.5px;
-  line-height         : 20.0px;
-}
-.bp4-mobileportrait .bp4-inputtext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 573px;
-  height              : 39px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp4-mobileportrait .bp4-inputtext .bp4-inputbackground {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 39px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp4-mobileportrait .bp4-inputtext .bp4-inputvalue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(74, 73, 74, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
 .bp4-mobileportrait .bp4-logo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 88px;
@@ -289,254 +574,76 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-.bp3-tabletportrait {
-  width               : 100%;
-  min-width           : 768px;
-  height              : 100vh;
-  min-height          : 1024px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(43, 41, 41, 1.0);
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp3-anima-animate-enter {
-  opacity             : 0;
-  transform           : scale(1.1);
-  display             : block;
-  -webkit-animation   : bp3-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp3-anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp3-anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-moz-keyframes bp3-anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-o-keyframes bp3-anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@keyframes bp3-anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-.bp3-tabletportrait .bp3-rectangle2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 993px;
-  height              : 10px;
-  box-sizing          : border-box;
-  width               : 613px;
-  position            : absolute;
-  margin              : 0;
-  left                : 78px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-tabletportrait .bp3-thiswebsiteiscurr {
+.bp4-mobileportrait .bp4-textenteremailaddresshere {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 527px;
-  height              : auto;
-  width               : 653px;
+  top                 : 590px;
+  height              : 30px;
+  width               : 333px;
   position            : absolute;
   margin              : 0;
-  left                : 49px;
+  left                : -6px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "AvenirNext-UltraLight", Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  color               : rgba(247, 243, 248, 1.0);
+  font-family         : "AvenirNext-Heavy", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
   text-align          : center;
-  line-height         : 49.0px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
 }
-.bp3-tabletportrait .bp3-pleasesubsribetot {
+.bp4-mobileportrait .bp4-textenteremailaddresshere::placeholder {
+  color               : rgba(255, 255, 255, 0.6);
+}
+.bp4-mobileportrait .bp4-updatebutton {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 777px;
-  height              : auto;
-  width               : 717px;
-  position            : absolute;
-  margin              : 0;
-  left                : 17px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "AvenirNext-UltraLight", Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  color               : rgba(74, 73, 74, 1.0);
-  text-align          : center;
-  line-height         : 49.0px;
-}
-.bp3-tabletportrait .bp3-pleasesubsribetot .bp3-span1 {
-  
-}
-.bp3-tabletportrait .bp3-pleasesubsribetot .bp3-span2 {
-  color               : rgba(243, 241, 244, 1.0);
-}
-.bp3-tabletportrait .bp3-pleasesubsribetot .bp3-span3 {
-  font-family         : "AvenirNext-Medium", Helvetica, Arial, serif;
-  color               : rgba(243, 241, 244, 1.0);
-}
-.bp3-tabletportrait .bp3-pleasesubsribetot .bp3-span4 {
-  color               : rgba(243, 241, 244, 1.0);
-}
-.bp3-tabletportrait .bp3-miscbigbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 729px;
+  top                 : 623px;
   height              : 50px;
   width               : 321px;
   position            : absolute;
   margin              : 0;
-  left                : 224px;
+  left                : -5px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp4-mobileportrait .bp4-updatebutton:hover {
+  filter              : grayscale(100%);
+}
+.bp4-mobileportrait .bp4-updatebutton .bp4-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp3-tabletportrait .bp3-miscbigbutton .bp3-background {
-  background-color    : rgba(0, 122, 255, 1.0);
+.bp4-mobileportrait .bp4-updatebutton .bp4-miscbigbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp4-mobileportrait .bp4-updatebutton .bp4-miscbigbutton:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.bp4-mobileportrait .bp4-updatebutton .bp4-miscbigbutton .bp4-background1 {
+  background-color    : rgba(245, 165, 35, 1.0);
   top                 : 0px;
   height              : 50px;
   width               : 321px;
@@ -548,7 +655,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp3-tabletportrait .bp3-miscbigbutton .bp3-button {
+.bp4-mobileportrait .bp4-updatebutton .bp4-miscbigbutton .bp4-button {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : auto;
@@ -565,83 +672,6 @@ div {
   text-align          : center;
   letter-spacing      : 0.5px;
   line-height         : 20.0px;
-}
-.bp3-tabletportrait .bp3-inputtext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 678px;
-  height              : 39px;
-  width               : 321px;
-  position            : absolute;
-  margin              : 0;
-  left                : 224px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-tabletportrait .bp3-inputtext .bp3-inputbackground {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 39px;
-  width               : 321px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-tabletportrait .bp3-inputtext .bp3-inputvalue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 12px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(74, 73, 74, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
-.bp3-tabletportrait .bp3-navimumbaicampus {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
-  height              : 62px;
-  width               : 311px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-tabletportrait .bp3-logo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 126px;
-  height              : 371px;
-  width               : 224px;
-  position            : absolute;
-  margin              : 0;
-  left                : 273px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-tabletportrait .bp3-logo .bp3-logo1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 371px;
-  width               : 224px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
@@ -745,6 +775,9 @@ div {
 }
 .anima-full-height-a {
   height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
 }
 div {
   -webkit-text-size-adjust: none;
@@ -856,47 +889,6 @@ div {
   text-align          : justify;
   line-height         : 49.0px;
 }
-.bp2-desktop .bp2-inputtext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 674px;
-  height              : 39px;
-  width               : 321px;
-  position            : absolute;
-  margin              : 0;
-  left                : 671px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-desktop .bp2-inputtext .bp2-inputbackground {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 39px;
-  width               : 321px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-desktop .bp2-inputtext .bp2-inputvalue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 12px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(74, 73, 74, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
 .bp2-desktop .bp2-pleasesubsribetot {
   background-color    : rgba(255,255,255,0.0);
   top                 : 764px;
@@ -954,6 +946,10 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-desktop .bp2-updatebutton:hover {
+  filter              : grayscale(100%);
 }
 .bp2-desktop .bp2-updatebutton .bp2-background {
   background-color    : rgba(255,255,255,0.0);
@@ -984,7 +980,7 @@ div {
   box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
 }
 .bp2-desktop .bp2-updatebutton .bp2-miscbigbutton .bp2-background1 {
-  background-color    : rgba(0, 122, 255, 1.0);
+  background-color    : rgba(245, 165, 35, 1.0);
   top                 : 0px;
   height              : 50px;
   width               : 321px;
@@ -1037,6 +1033,29 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+}
+.bp2-desktop .bp2-textenteremailaddresshere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 699px;
+  height              : 30px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 662px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Heavy", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.bp2-desktop .bp2-textenteremailaddresshere::placeholder {
+  color               : rgba(255, 255, 255, 0.6);
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
@@ -1239,47 +1258,6 @@ div {
   text-align          : justify;
   line-height         : 49.0px;
 }
-.bp1-desktophd .bp1-inputtext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 448px;
-  height              : 39px;
-  width               : 321px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1050px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-desktophd .bp1-inputtext .bp1-inputbackground {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 39px;
-  width               : 321px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-desktophd .bp1-inputtext .bp1-inputvalue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 12px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(74, 73, 74, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
 .bp1-desktophd .bp1-updatebutton {
   background-color    : rgba(255,255,255,0.0);
   top                 : 499px;
@@ -1295,7 +1273,7 @@ div {
   transition          : all 0.2s ease-in-out;
 }
 .bp1-desktophd .bp1-updatebutton:hover {
-  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+  filter              : grayscale(100%);
 }
 .bp1-desktophd .bp1-updatebutton .bp1-background {
   background-color    : rgba(255,255,255,0.0);
@@ -1326,7 +1304,7 @@ div {
   box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
 }
 .bp1-desktophd .bp1-updatebutton .bp1-miscbigbutton .bp1-background1 {
-  background-color    : rgba(0, 122, 255, 1.0);
+  background-color    : rgba(245, 165, 35, 1.0);
   top                 : 0px;
   height              : 50px;
   width               : 321px;
@@ -1424,6 +1402,29 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-textenteremailaddresshere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 449px;
+  height              : 30px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1038px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Heavy", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.bp1-desktophd .bp1-textenteremailaddresshere::placeholder {
+  color               : rgba(255, 255, 255, 0.6);
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
