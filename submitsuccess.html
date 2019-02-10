@@ -11,9 +11,9 @@
     <body style="margin: 0;
  background: rgba(43, 41, 41, 1.0);">
         <input id="anPageName" name="page" type="hidden" value="submitsuccess"/>
-        <form action="form1" class="submitsuccess" method="post" name="form1">
+        <form action="form2" class="submitsuccess" method="post" name="form2">
             <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
-                <a href="#" onclick="document.getElementsByName('form1')[0].submit(); if (window.submitted) window.submitted();">
+                <a href="#" onclick="document.getElementsByName('form2')[0].submit(); if (window.submitted) window.submitted();">
                     <div class="updatebutton">
                         <div class="background">
                         </div>
@@ -27,10 +27,10 @@
                     </div>
                 </a>
                 <style>
-                    .submitsuccess .logo-vObv * {
+                    .submitsuccess .logo-R1fT * {
                         box-sizing          : border-box;
                     }
-                    .submitsuccess .logo-vObv {
+                    .submitsuccess .logo-R1fT {
                         pointer-events      : none;
                         background-color    : rgba(255,255,255,0.0);
                         top                 : 283px;
@@ -43,7 +43,7 @@
                         -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
                         transform           : rotate(0deg);
                     }
-                    .submitsuccess .logo-vObv .logo1 {
+                    .submitsuccess .logo-R1fT .logo1 {
                         pointer-events      : none;
                         background-color    : rgba(255,255,255,0.0);
                         top                 : 0px;
@@ -56,16 +56,16 @@
                         -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
                         transform           : rotate(0deg);
                     }
-                    .submitsuccess .logo-vObv.keyframe1-to-keyframe2 .logo1 {
+                    .submitsuccess .logo-R1fT.keyframe1-to-keyframe2 .logo1 {
                         transition          : all 0.2s ease-in-out 0.0s;
                         left                : -14px;
                     }
-                    .submitsuccess .logo-vObv.keyframe2 .logo1 {
+                    .submitsuccess .logo-R1fT.keyframe2 .logo1 {
                         left                : -14px;
                     }
                 </style>
-                <div id="uZJviO7">
-                    <div class="logo logo-vObv component keyframe1" data-initial-state="keyframe1">
+                <div id="t1mF50R">
+                    <div class="logo logo-R1fT component keyframe1" data-initial-state="keyframe1">
                         <img anima-show-on-scroll="" class="logo1 anima-animate-enter" src="./img/desktop-hd-logo.png"/>
                     </div>
                 </div>
@@ -161,13 +161,13 @@
                         }
                     }
                     var transitionEvent = whichTransitionEvent();
-                    function clicklogovObvuZJviO71Handler(event) {
-                        var component = document.querySelector('.submitsuccess .logo-vObv');
+                    function clicklogoR1fTt1mF50R1Handler(event) {
+                        var component = document.querySelector('.submitsuccess .logo-R1fT');
                         if (isCurrentState(component, 'keyframe1')) {
                             try {
                                 setTimeout(function() {
-                                    var component = document.querySelector('.submitsuccess .logo-vObv');
-                                    component.addEventListener(transitionEvent, transitionlogovObvuZJviO7keyframe1tokeyframe2EndedHandler);
+                                    var component = document.querySelector('.submitsuccess .logo-R1fT');
+                                    component.addEventListener(transitionEvent, transitionlogoR1fTt1mF50Rkeyframe1tokeyframe2EndedHandler);
                                     removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
                                     addClass(component, 'keyframe2');
                                     addClass(component, 'keyframe1-to-keyframe2');
@@ -177,27 +177,27 @@
                             }
                         }
                     }
-                    function transitionlogovObvuZJviO7keyframe1tokeyframe2EndedHandler(event) {
+                    function transitionlogoR1fTt1mF50Rkeyframe1tokeyframe2EndedHandler(event) {
                         if (event.target.className.trim() == 'logo1' || event.target.className.startsWith('logo1 ')) {
-                            var component = document.querySelector('.submitsuccess .logo-vObv');
-                            component.removeEventListener(transitionEvent, transitionlogovObvuZJviO7keyframe1tokeyframe2EndedHandler);
+                            var component = document.querySelector('.submitsuccess .logo-R1fT');
+                            component.removeEventListener(transitionEvent, transitionlogoR1fTt1mF50Rkeyframe1tokeyframe2EndedHandler);
                         }
                     }
-                    var component = document.querySelector('.submitsuccess .logo-vObv');
+                    var component = document.querySelector('.submitsuccess .logo-R1fT');
                     component.style['pointer-events'] = 'auto';
-                    component.addEventListener('click', clicklogovObvuZJviO71Handler);
-                    function resetlogovObvuZJviO7() {
-                        var component = document.querySelector('.submitsuccess .logo-vObv');
+                    component.addEventListener('click', clicklogoR1fTt1mF50R1Handler);
+                    function resetlogoR1fTt1mF50R() {
+                        var component = document.querySelector('.submitsuccess .logo-R1fT');
                         if (!component) {
                             return;
                         }
-                        component.addEventListener(transitionEvent, transitionlogovObvuZJviO7keyframe1tokeyframe2EndedHandler);
+                        component.addEventListener(transitionEvent, transitionlogoR1fTt1mF50Rkeyframe1tokeyframe2EndedHandler);
                         removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
                         addClass(component, 'keyframe2');
                         addClass(component, 'keyframe1-to-keyframe2');
                     }
                     (function() {
-                        var component = document.querySelector('.logo-vObv');
+                        var component = document.querySelector('.logo-R1fT');
                         var event = new Event('click');
                         component.dispatchEvent(event);
                     })();
