@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/desktop.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(1, 23, 57, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="desktop"/>
+        <div class="bp2-desktop">
+            <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
+                <img anima-src="./img/tablet-portrait-15505.png" class="bp2-a15505" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="bp2-navbar">
+                    <img anima-src="./img/desktop-rectangle.png" class="bp2-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <a href="/event/events.html">
+                        <div class="bp2-events">
+                            EVENTS
+                        </div>
+                    </a>
+                    <a href="nmignite.github.io/events.html">
+                        <div class="bp2-about">
+                            ABOUT
+                        </div>
+                    </a>
+                    <div class="bp2-register">
+                        REGISTER
+                    </div>
+                    <div class="bp2-teaser">
+                        TEASER
+                    </div>
+                    <style>
+                        .bp2-desktop .bp2-navbar .bp2-logocopy-zHFn * {
+                            box-sizing          : border-box;
+                        }
+                        .bp2-desktop .bp2-navbar .bp2-logocopy-zHFn {
+                            pointer-events      : none;
+                            background-color    : rgba(255,255,255,0.0);
+                            bottom              : -0.68%;
+                            height              : 91.89%;
+                            width               : 15.57%;
+                            position            : absolute;
+                            margin              : 0;
+                            left                : 1.33%;
+                            -ms-transform       : rotate(0deg); /* IE 9 */
+                            -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                            transform           : rotate(0deg);
+                        }
+                        .bp2-desktop .bp2-navbar .bp2-logocopy-zHFn .bp2-logo {
+                            pointer-events      : none;
+                            background-color    : rgba(255,255,255,0.0);
+                            top                 : 0px;
+                            height              : 272px;
+                            width               : 164px;
+                            position            : relative;
+                            margin              : 0;
+                            left                : 0px;
+                            -ms-transform       : rotate(0deg); /* IE 9 */
+                            -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                            transform           : rotate(0deg);
+                        }
+                        .bp2-desktop .bp2-navbar .bp2-logocopy-zHFn.keyframe1-to-keyframe2 .bp2-logo {
+                            transition          : all 0.2s ease-in-out 0.0s;
+                            left                : -14px;
+                        }
+                        .bp2-desktop .bp2-navbar .bp2-logocopy-zHFn.keyframe2 .bp2-logo {
+                            left                : -14px;
+                        }
+                    </style>
+                    <div id="e6Gga2O">
+                        <div anima-show-on-scroll="" class="bp2-logocopy bp2-anima-animate-enter1 bp2-logocopy-zHFn component keyframe1" data-initial-state="keyframe1">
+                            <img anima-show-on-scroll="" class="bp2-logo bp2-anima-animate-enter" src="./img/desktop-logo@2x.png"/>
+                        </div>
+                    </div>
+                    <script>
+                        if (typeof String.prototype.endsWith !== 'function') {
+                            String.prototype.endsWith = function(suffix) {
+                                return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                            };
+                        }
+                        if (!String.prototype.startsWith) {
+                            String.prototype.startsWith = function(searchString, position) {
+                                position = position || 0;
+                                return this.indexOf(searchString, position) === position;
+                            };
+                        }
+                        if (!Array.prototype.forEach) {
+                            Array.prototype.forEach = function(callback) {
+                                var T, k;
+                                if (this == null) {
+                                    throw new TypeError('this is null or not defined');
+                                }
+                                var O = Object(this);
+                                var len = O.length >>> 0;
+                                if (typeof callback !== 'function') {
+                                    throw new TypeError(callback + ' is not a function');
+                                }
+                                if (arguments.length > 1) {
+                                    T = arguments[1];
+                                }
+                                k = 0;
+                                while (k < len) {
+                                    var kValue;
+                                    if (k in O) {
+                                        kValue = O[k];
+                                        callback.call(T, kValue, k, O);
+                                    }
+                                    k++;
+                                }
+                            };
+                        }
+                        function toArray(obj) {
+                            var array = [];
+                            for (var i = obj.length >>> 0; i--; ) {
+                                array[i] = obj[i];
+                            }
+                            return array;
+                        }
+                        function addClass(object, className) {
+                            object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                        }
+                        function removeAllClassesButFirst(component, skipClass) {
+                            var classList = component.classList;
+                            var componentClass = classList.item(0);
+                            var toRemove = [];
+                            var beforeComponent = true;
+                            toArray(classList).forEach(function(className) {
+                                beforeComponent = beforeComponent && className != 'component';
+                                if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                                    toRemove.push(className);
+                                }
+                            });
+                            toRemove.forEach(function(className) {
+                                classList.remove(className);
+                            });
+                        }
+                        function applyState(component, stateClass) {
+                            var componentClass = component.classList.item(0);
+                            component.className = componentClass;
+                            component.classList.add(stateClass);
+                        }
+                        function isCurrentState(component, state) {
+                            var classList = component.classList;
+                            var rv = false;
+                            toArray(classList).forEach(function(className) {
+                                if (className.endsWith(state)) {
+                                    rv = true;
+                                }
+                            });
+                            return rv;
+                        }
+                        function whichTransitionEvent() {
+                            var t, el = document.createElement("fakeelement");
+                            var transitions = {
+                                "transition": "transitionend",
+                                "OTransition": "oTransitionEnd",
+                                "MozTransition": "transitionend",
+                                "WebkitTransition": "webkitTransitionEnd"
+                            };
+                            for (t in transitions) {
+                                if (el.style[t] !== undefined) {
+                                    return transitions[t];
+                                }
+                            }
+                        }
+                        var transitionEvent = whichTransitionEvent();
+                        function clicklogoCopyzHFne6Gga2O1Handler(event) {
+                            var component = document.querySelector('.bp2-desktop .bp2-navbar .bp2-logocopy-zHFn');
+                            if (isCurrentState(component, 'keyframe1')) {
+                                try {
+                                    setTimeout(function() {
+                                        var component = document.querySelector('.bp2-desktop .bp2-navbar .bp2-logocopy-zHFn');
+                                        component.addEventListener(transitionEvent, transitionlogoCopyzHFne6Gga2Okeyframe1tokeyframe2EndedHandler);
+                                        removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                                        addClass(component, 'keyframe2');
+                                        addClass(component, 'keyframe1-to-keyframe2');
+                                    }, 0);
+                                } catch (e) {
+                                    console.log(e);
+                                }
+                            }
+                        }
+                        function transitionlogoCopyzHFne6Gga2Okeyframe1tokeyframe2EndedHandler(event) {
+                            if (event.target.className.trim() == 'bp2-logo' || event.target.className.startsWith('bp2-logo ')) {
+                                var component = document.querySelector('.bp2-desktop .bp2-navbar .bp2-logocopy-zHFn');
+                                component.removeEventListener(transitionEvent, transitionlogoCopyzHFne6Gga2Okeyframe1tokeyframe2EndedHandler);
+                            }
+                        }
+                        var component = document.querySelector('.bp2-desktop .bp2-navbar .bp2-logocopy-zHFn');
+                        component.style['pointer-events'] = 'auto';
+                        component.addEventListener('click', clicklogoCopyzHFne6Gga2O1Handler);
+                        function resetlogoCopyzHFne6Gga2O() {
+                            var component = document.querySelector('.bp2-desktop .bp2-navbar .bp2-logocopy-zHFn');
+                            if (!component) {
+                                return;
+                            }
+                            component.addEventListener(transitionEvent, transitionlogoCopyzHFne6Gga2Okeyframe1tokeyframe2EndedHandler);
+                            removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                            addClass(component, 'keyframe2');
+                            addClass(component, 'keyframe1-to-keyframe2');
+                        }
+                        (function() {
+                            var component = document.querySelector('.bp2-logocopy-zHFn');
+                            var event = new Event('click');
+                            component.dispatchEvent(event);
+                        })();
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="bp4-mobileportrait">
+            <img anima-src="./img/mobile-portrait-navi-mumbai-campus@2x.png" class="bp4-navimumbaicampus" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <style>
+                .bp4-mobileportrait .bp4-logo-wWFA * {
+                    box-sizing          : border-box;
+                }
+                .bp4-mobileportrait .bp4-logo-wWFA {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : calc(50.00% - 325px);
+                    height              : 242px;
+                    width               : 146px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : calc(50.00% - 73px);
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp4-mobileportrait .bp4-logo-wWFA .bp4-logo1 {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : 0px;
+                    height              : 242px;
+                    width               : 146px;
+                    position            : relative;
+                    margin              : 0;
+                    left                : 0px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp4-mobileportrait .bp4-logo-wWFA.keyframe1-to-keyframe2 .bp4-logo1 {
+                    transition          : all 0.2s ease-in-out 0.0s;
+                    left                : -14px;
+                }
+                .bp4-mobileportrait .bp4-logo-wWFA.keyframe2 .bp4-logo1 {
+                    left                : -14px;
+                }
+            </style>
+            <div id="NXwTOeD">
+                <div anima-show-on-scroll="" class="bp4-logo bp4-anima-animate-enter1 bp4-logo-wWFA component keyframe1" data-initial-state="keyframe1">
+                    <img anima-show-on-scroll="" class="bp4-logo1 bp4-anima-animate-enter" src="./img/tablet-portrait-logo@2x.png"/>
+                </div>
+            </div>
+            <script>
+                if (typeof String.prototype.endsWith !== 'function') {
+                    String.prototype.endsWith = function(suffix) {
+                        return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                    };
+                }
+                if (!String.prototype.startsWith) {
+                    String.prototype.startsWith = function(searchString, position) {
+                        position = position || 0;
+                        return this.indexOf(searchString, position) === position;
+                    };
+                }
+                if (!Array.prototype.forEach) {
+                    Array.prototype.forEach = function(callback) {
+                        var T, k;
+                        if (this == null) {
+                            throw new TypeError('this is null or not defined');
+                        }
+                        var O = Object(this);
+                        var len = O.length >>> 0;
+                        if (typeof callback !== 'function') {
+                            throw new TypeError(callback + ' is not a function');
+                        }
+                        if (arguments.length > 1) {
+                            T = arguments[1];
+                        }
+                        k = 0;
+                        while (k < len) {
+                            var kValue;
+                            if (k in O) {
+                                kValue = O[k];
+                                callback.call(T, kValue, k, O);
+                            }
+                            k++;
+                        }
+                    };
+                }
+                function toArray(obj) {
+                    var array = [];
+                    for (var i = obj.length >>> 0; i--; ) {
+                        array[i] = obj[i];
+                    }
+                    return array;
+                }
+                function addClass(object, className) {
+                    object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                }
+                function removeAllClassesButFirst(component, skipClass) {
+                    var classList = component.classList;
+                    var componentClass = classList.item(0);
+                    var toRemove = [];
+                    var beforeComponent = true;
+                    toArray(classList).forEach(function(className) {
+                        beforeComponent = beforeComponent && className != 'component';
+                        if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                            toRemove.push(className);
+                        }
+                    });
+                    toRemove.forEach(function(className) {
+                        classList.remove(className);
+                    });
+                }
+                function applyState(component, stateClass) {
+                    var componentClass = component.classList.item(0);
+                    component.className = componentClass;
+                    component.classList.add(stateClass);
+                }
+                function isCurrentState(component, state) {
+                    var classList = component.classList;
+                    var rv = false;
+                    toArray(classList).forEach(function(className) {
+                        if (className.endsWith(state)) {
+                            rv = true;
+                        }
+                    });
+                    return rv;
+                }
+                function whichTransitionEvent() {
+                    var t, el = document.createElement("fakeelement");
+                    var transitions = {
+                        "transition": "transitionend",
+                        "OTransition": "oTransitionEnd",
+                        "MozTransition": "transitionend",
+                        "WebkitTransition": "webkitTransitionEnd"
+                    };
+                    for (t in transitions) {
+                        if (el.style[t] !== undefined) {
+                            return transitions[t];
+                        }
+                    }
+                }
+                var transitionEvent = whichTransitionEvent();
+                function clicklogowWFANXwTOeD1Handler(event) {
+                    var component = document.querySelector('.bp4-mobileportrait .bp4-logo-wWFA');
+                    if (isCurrentState(component, 'keyframe1')) {
+                        try {
+                            setTimeout(function() {
+                                var component = document.querySelector('.bp4-mobileportrait .bp4-logo-wWFA');
+                                component.addEventListener(transitionEvent, transitionlogowWFANXwTOeDkeyframe1tokeyframe2EndedHandler);
+                                removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                                addClass(component, 'keyframe2');
+                                addClass(component, 'keyframe1-to-keyframe2');
+                            }, 0);
+                        } catch (e) {
+                            console.log(e);
+                        }
+                    }
+                }
+                function transitionlogowWFANXwTOeDkeyframe1tokeyframe2EndedHandler(event) {
+                    if (event.target.className.trim() == 'bp4-logo1' || event.target.className.startsWith('bp4-logo1 ')) {
+                        var component = document.querySelector('.bp4-mobileportrait .bp4-logo-wWFA');
+                        component.removeEventListener(transitionEvent, transitionlogowWFANXwTOeDkeyframe1tokeyframe2EndedHandler);
+                    }
+                }
+                var component = document.querySelector('.bp4-mobileportrait .bp4-logo-wWFA');
+                component.style['pointer-events'] = 'auto';
+                component.addEventListener('click', clicklogowWFANXwTOeD1Handler);
+                function resetlogowWFANXwTOeD() {
+                    var component = document.querySelector('.bp4-mobileportrait .bp4-logo-wWFA');
+                    if (!component) {
+                        return;
+                    }
+                    component.addEventListener(transitionEvent, transitionlogowWFANXwTOeDkeyframe1tokeyframe2EndedHandler);
+                    removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                    addClass(component, 'keyframe2');
+                    addClass(component, 'keyframe1-to-keyframe2');
+                }
+                (function() {
+                    var component = document.querySelector('.bp4-logo-wWFA');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                })();
+            </script>
+            <style>
+                .bp4-mobileportrait .bp4-group-Ds7I * {
+                    box-sizing          : border-box;
+                }
+                .bp4-mobileportrait .bp4-group-Ds7I {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : 85px;
+                    height              : 34px;
+                    width               : 39px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : 263px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp4-mobileportrait .bp4-group-Ds7I .bp4-rectangle {
+                    pointer-events      : none;
+                    background-color    : rgba(215, 215, 215, 1.0);
+                    top                 : 0px;
+                    height              : 6px;
+                    width               : 39px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : 0px;
+                    border-radius       : 2px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp4-mobileportrait .bp4-group-Ds7I .bp4-rectanglecopy {
+                    pointer-events      : none;
+                    background-color    : rgba(215, 215, 215, 1.0);
+                    top                 : 28px;
+                    height              : 6px;
+                    width               : 39px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : 0px;
+                    border-radius       : 2px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp4-mobileportrait .bp4-group-Ds7I .bp4-rectanglecopy2 {
+                    pointer-events      : none;
+                    background-color    : rgba(215, 215, 215, 1.0);
+                    top                 : 14px;
+                    height              : 6px;
+                    width               : 39px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : 0px;
+                    border-radius       : 2px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+            </style>
+            <div id="Mqx5v5c">
+                <div class="bp4-group bp4-group-Ds7I component state1" data-initial-state="state1">
+                    <div class="bp4-rectangle">
+                    </div>
+                    <div class="bp4-rectanglecopy">
+                    </div>
+                    <div class="bp4-rectanglecopy2">
+                    </div>
+                </div>
+            </div>
+            <script>
+                if (typeof String.prototype.endsWith !== 'function') {
+                    String.prototype.endsWith = function(suffix) {
+                        return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                    };
+                }
+                if (!String.prototype.startsWith) {
+                    String.prototype.startsWith = function(searchString, position) {
+                        position = position || 0;
+                        return this.indexOf(searchString, position) === position;
+                    };
+                }
+                if (!Array.prototype.forEach) {
+                    Array.prototype.forEach = function(callback) {
+                        var T, k;
+                        if (this == null) {
+                            throw new TypeError('this is null or not defined');
+                        }
+                        var O = Object(this);
+                        var len = O.length >>> 0;
+                        if (typeof callback !== 'function') {
+                            throw new TypeError(callback + ' is not a function');
+                        }
+                        if (arguments.length > 1) {
+                            T = arguments[1];
+                        }
+                        k = 0;
+                        while (k < len) {
+                            var kValue;
+                            if (k in O) {
+                                kValue = O[k];
+                                callback.call(T, kValue, k, O);
+                            }
+                            k++;
+                        }
+                    };
+                }
+                function toArray(obj) {
+                    var array = [];
+                    for (var i = obj.length >>> 0; i--; ) {
+                        array[i] = obj[i];
+                    }
+                    return array;
+                }
+                function addClass(object, className) {
+                    object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                }
+                function removeAllClassesButFirst(component, skipClass) {
+                    var classList = component.classList;
+                    var componentClass = classList.item(0);
+                    var toRemove = [];
+                    var beforeComponent = true;
+                    toArray(classList).forEach(function(className) {
+                        beforeComponent = beforeComponent && className != 'component';
+                        if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                            toRemove.push(className);
+                        }
+                    });
+                    toRemove.forEach(function(className) {
+                        classList.remove(className);
+                    });
+                }
+                function applyState(component, stateClass) {
+                    var componentClass = component.classList.item(0);
+                    component.className = componentClass;
+                    component.classList.add(stateClass);
+                }
+                function isCurrentState(component, state) {
+                    var classList = component.classList;
+                    var rv = false;
+                    toArray(classList).forEach(function(className) {
+                        if (className.endsWith(state)) {
+                            rv = true;
+                        }
+                    });
+                    return rv;
+                }
+                function whichTransitionEvent() {
+                    var t, el = document.createElement("fakeelement");
+                    var transitions = {
+                        "transition": "transitionend",
+                        "OTransition": "oTransitionEnd",
+                        "MozTransition": "transitionend",
+                        "WebkitTransition": "webkitTransitionEnd"
+                    };
+                    for (t in transitions) {
+                        if (el.style[t] !== undefined) {
+                            return transitions[t];
+                        }
+                    }
+                }
+                var transitionEvent = whichTransitionEvent();
+            </script>
+        </div>
+        <div class="bp3-tabletportrait">
+            <img anima-src="./img/tablet-portrait-navi-mumbai-campus.png" class="bp3-navimumbaicampus" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <div class="bp3-events">
+                EVENTS
+            </div>
+            <div class="bp3-register">
+                REGISTER
+            </div>
+            <div class="bp3-teaser">
+                TEASER
+            </div>
+            <div class="bp3-about">
+                ABOUT
+            </div>
+            <style>
+                .bp3-tabletportrait .bp3-logo-AQOW * {
+                    box-sizing          : border-box;
+                }
+                .bp3-tabletportrait .bp3-logo-AQOW {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : calc(50.00% - 121px);
+                    height              : 242px;
+                    width               : 146px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : calc(50.00% - 73px);
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp3-tabletportrait .bp3-logo-AQOW .bp3-logo1 {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : 0px;
+                    height              : 242px;
+                    width               : 146px;
+                    position            : relative;
+                    margin              : 0;
+                    left                : 0px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp3-tabletportrait .bp3-logo-AQOW.keyframe1-to-keyframe2 .bp3-logo1 {
+                    transition          : all 0.2s ease-in-out 0.0s;
+                    left                : -14px;
+                }
+                .bp3-tabletportrait .bp3-logo-AQOW.keyframe2 .bp3-logo1 {
+                    left                : -14px;
+                }
+            </style>
+            <div id="RrppWDY">
+                <div anima-show-on-scroll="" class="bp3-logo bp3-anima-animate-enter1 bp3-logo-AQOW component keyframe1" data-initial-state="keyframe1">
+                    <img anima-show-on-scroll="" class="bp3-logo1 bp3-anima-animate-enter" src="./img/tablet-portrait-logo@2x.png"/>
+                </div>
+            </div>
+            <script>
+                if (typeof String.prototype.endsWith !== 'function') {
+                    String.prototype.endsWith = function(suffix) {
+                        return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                    };
+                }
+                if (!String.prototype.startsWith) {
+                    String.prototype.startsWith = function(searchString, position) {
+                        position = position || 0;
+                        return this.indexOf(searchString, position) === position;
+                    };
+                }
+                if (!Array.prototype.forEach) {
+                    Array.prototype.forEach = function(callback) {
+                        var T, k;
+                        if (this == null) {
+                            throw new TypeError('this is null or not defined');
+                        }
+                        var O = Object(this);
+                        var len = O.length >>> 0;
+                        if (typeof callback !== 'function') {
+                            throw new TypeError(callback + ' is not a function');
+                        }
+                        if (arguments.length > 1) {
+                            T = arguments[1];
+                        }
+                        k = 0;
+                        while (k < len) {
+                            var kValue;
+                            if (k in O) {
+                                kValue = O[k];
+                                callback.call(T, kValue, k, O);
+                            }
+                            k++;
+                        }
+                    };
+                }
+                function toArray(obj) {
+                    var array = [];
+                    for (var i = obj.length >>> 0; i--; ) {
+                        array[i] = obj[i];
+                    }
+                    return array;
+                }
+                function addClass(object, className) {
+                    object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                }
+                function removeAllClassesButFirst(component, skipClass) {
+                    var classList = component.classList;
+                    var componentClass = classList.item(0);
+                    var toRemove = [];
+                    var beforeComponent = true;
+                    toArray(classList).forEach(function(className) {
+                        beforeComponent = beforeComponent && className != 'component';
+                        if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                            toRemove.push(className);
+                        }
+                    });
+                    toRemove.forEach(function(className) {
+                        classList.remove(className);
+                    });
+                }
+                function applyState(component, stateClass) {
+                    var componentClass = component.classList.item(0);
+                    component.className = componentClass;
+                    component.classList.add(stateClass);
+                }
+                function isCurrentState(component, state) {
+                    var classList = component.classList;
+                    var rv = false;
+                    toArray(classList).forEach(function(className) {
+                        if (className.endsWith(state)) {
+                            rv = true;
+                        }
+                    });
+                    return rv;
+                }
+                function whichTransitionEvent() {
+                    var t, el = document.createElement("fakeelement");
+                    var transitions = {
+                        "transition": "transitionend",
+                        "OTransition": "oTransitionEnd",
+                        "MozTransition": "transitionend",
+                        "WebkitTransition": "webkitTransitionEnd"
+                    };
+                    for (t in transitions) {
+                        if (el.style[t] !== undefined) {
+                            return transitions[t];
+                        }
+                    }
+                }
+                var transitionEvent = whichTransitionEvent();
+                function clicklogoAQOWRrppWDY1Handler(event) {
+                    var component = document.querySelector('.bp3-tabletportrait .bp3-logo-AQOW');
+                    if (isCurrentState(component, 'keyframe1')) {
+                        try {
+                            setTimeout(function() {
+                                var component = document.querySelector('.bp3-tabletportrait .bp3-logo-AQOW');
+                                component.addEventListener(transitionEvent, transitionlogoAQOWRrppWDYkeyframe1tokeyframe2EndedHandler);
+                                removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                                addClass(component, 'keyframe2');
+                                addClass(component, 'keyframe1-to-keyframe2');
+                            }, 0);
+                        } catch (e) {
+                            console.log(e);
+                        }
+                    }
+                }
+                function transitionlogoAQOWRrppWDYkeyframe1tokeyframe2EndedHandler(event) {
+                    if (event.target.className.trim() == 'bp3-logo1' || event.target.className.startsWith('bp3-logo1 ')) {
+                        var component = document.querySelector('.bp3-tabletportrait .bp3-logo-AQOW');
+                        component.removeEventListener(transitionEvent, transitionlogoAQOWRrppWDYkeyframe1tokeyframe2EndedHandler);
+                    }
+                }
+                var component = document.querySelector('.bp3-tabletportrait .bp3-logo-AQOW');
+                component.style['pointer-events'] = 'auto';
+                component.addEventListener('click', clicklogoAQOWRrppWDY1Handler);
+                function resetlogoAQOWRrppWDY() {
+                    var component = document.querySelector('.bp3-tabletportrait .bp3-logo-AQOW');
+                    if (!component) {
+                        return;
+                    }
+                    component.addEventListener(transitionEvent, transitionlogoAQOWRrppWDYkeyframe1tokeyframe2EndedHandler);
+                    removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                    addClass(component, 'keyframe2');
+                    addClass(component, 'keyframe1-to-keyframe2');
+                }
+                (function() {
+                    var component = document.querySelector('.bp3-logo-AQOW');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                })();
+            </script>
+            <img anima-src="./img/tablet-portrait-15505.png" class="bp3-a15505" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+        </div>
+        <div class="bp1-desktophd1">
+            <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+                <div class="bp1-navbar">
+                    <img anima-src="./img/desktop-hd-rectangle.png" class="bp1-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <a href="/event/events.html">
+                        <div class="bp1-events">
+                            EVENTS
+                        </div>
+                    </a>
+                    <a href="nmignite.github.io/events.html">
+                        <div class="bp1-about1">
+                            ABOUT
+                        </div>
+                    </a>
+                    <div class="bp1-register">
+                        REGISTER
+                    </div>
+                    <div class="bp1-teaser">
+                        TEASER
+                    </div>
+                    <style>
+                        .bp1-desktophd1 .bp1-navbar .bp1-logocopy-fUOb * {
+                            box-sizing          : border-box;
+                        }
+                        .bp1-desktophd1 .bp1-navbar .bp1-logocopy-fUOb {
+                            pointer-events      : none;
+                            background-color    : rgba(255,255,255,0.0);
+                            bottom              : -0.66%;
+                            height              : 90.37%;
+                            width               : 11.33%;
+                            position            : absolute;
+                            margin              : 0;
+                            left                : 3.80%;
+                            -ms-transform       : rotate(0deg); /* IE 9 */
+                            -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                            transform           : rotate(0deg);
+                        }
+                        .bp1-desktophd1 .bp1-navbar .bp1-logocopy-fUOb .bp1-logo {
+                            pointer-events      : none;
+                            background-color    : rgba(255,255,255,0.0);
+                            top                 : 0px;
+                            height              : 272px;
+                            width               : 164px;
+                            position            : relative;
+                            margin              : 0;
+                            left                : 0px;
+                            -ms-transform       : rotate(0deg); /* IE 9 */
+                            -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                            transform           : rotate(0deg);
+                        }
+                        .bp1-desktophd1 .bp1-navbar .bp1-logocopy-fUOb.keyframe1-to-keyframe2 .bp1-logo {
+                            transition          : all 0.2s ease-in-out 0.0s;
+                            left                : -14px;
+                        }
+                        .bp1-desktophd1 .bp1-navbar .bp1-logocopy-fUOb.keyframe2 .bp1-logo {
+                            left                : -14px;
+                        }
+                    </style>
+                    <div id="fKuc8QP">
+                        <div anima-show-on-scroll="" class="bp1-logocopy bp1-anima-animate-enter1 bp1-logocopy-fUOb component keyframe1" data-initial-state="keyframe1">
+                            <img anima-show-on-scroll="" class="bp1-logo bp1-anima-animate-enter" src="./img/desktop-logo@2x.png"/>
+                        </div>
+                    </div>
+                    <script>
+                        if (typeof String.prototype.endsWith !== 'function') {
+                            String.prototype.endsWith = function(suffix) {
+                                return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                            };
+                        }
+                        if (!String.prototype.startsWith) {
+                            String.prototype.startsWith = function(searchString, position) {
+                                position = position || 0;
+                                return this.indexOf(searchString, position) === position;
+                            };
+                        }
+                        if (!Array.prototype.forEach) {
+                            Array.prototype.forEach = function(callback) {
+                                var T, k;
+                                if (this == null) {
+                                    throw new TypeError('this is null or not defined');
+                                }
+                                var O = Object(this);
+                                var len = O.length >>> 0;
+                                if (typeof callback !== 'function') {
+                                    throw new TypeError(callback + ' is not a function');
+                                }
+                                if (arguments.length > 1) {
+                                    T = arguments[1];
+                                }
+                                k = 0;
+                                while (k < len) {
+                                    var kValue;
+                                    if (k in O) {
+                                        kValue = O[k];
+                                        callback.call(T, kValue, k, O);
+                                    }
+                                    k++;
+                                }
+                            };
+                        }
+                        function toArray(obj) {
+                            var array = [];
+                            for (var i = obj.length >>> 0; i--; ) {
+                                array[i] = obj[i];
+                            }
+                            return array;
+                        }
+                        function addClass(object, className) {
+                            object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                        }
+                        function removeAllClassesButFirst(component, skipClass) {
+                            var classList = component.classList;
+                            var componentClass = classList.item(0);
+                            var toRemove = [];
+                            var beforeComponent = true;
+                            toArray(classList).forEach(function(className) {
+                                beforeComponent = beforeComponent && className != 'component';
+                                if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                                    toRemove.push(className);
+                                }
+                            });
+                            toRemove.forEach(function(className) {
+                                classList.remove(className);
+                            });
+                        }
+                        function applyState(component, stateClass) {
+                            var componentClass = component.classList.item(0);
+                            component.className = componentClass;
+                            component.classList.add(stateClass);
+                        }
+                        function isCurrentState(component, state) {
+                            var classList = component.classList;
+                            var rv = false;
+                            toArray(classList).forEach(function(className) {
+                                if (className.endsWith(state)) {
+                                    rv = true;
+                                }
+                            });
+                            return rv;
+                        }
+                        function whichTransitionEvent() {
+                            var t, el = document.createElement("fakeelement");
+                            var transitions = {
+                                "transition": "transitionend",
+                                "OTransition": "oTransitionEnd",
+                                "MozTransition": "transitionend",
+                                "WebkitTransition": "webkitTransitionEnd"
+                            };
+                            for (t in transitions) {
+                                if (el.style[t] !== undefined) {
+                                    return transitions[t];
+                                }
+                            }
+                        }
+                        var transitionEvent = whichTransitionEvent();
+                        function clicklogoCopyfUObfKuc8QP1Handler(event) {
+                            var component = document.querySelector('.bp1-desktophd1 .bp1-navbar .bp1-logocopy-fUOb');
+                            if (isCurrentState(component, 'keyframe1')) {
+                                try {
+                                    setTimeout(function() {
+                                        var component = document.querySelector('.bp1-desktophd1 .bp1-navbar .bp1-logocopy-fUOb');
+                                        component.addEventListener(transitionEvent, transitionlogoCopyfUObfKuc8QPkeyframe1tokeyframe2EndedHandler);
+                                        removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                                        addClass(component, 'keyframe2');
+                                        addClass(component, 'keyframe1-to-keyframe2');
+                                    }, 0);
+                                } catch (e) {
+                                    console.log(e);
+                                }
+                            }
+                        }
+                        function transitionlogoCopyfUObfKuc8QPkeyframe1tokeyframe2EndedHandler(event) {
+                            if (event.target.className.trim() == 'bp1-logo' || event.target.className.startsWith('bp1-logo ')) {
+                                var component = document.querySelector('.bp1-desktophd1 .bp1-navbar .bp1-logocopy-fUOb');
+                                component.removeEventListener(transitionEvent, transitionlogoCopyfUObfKuc8QPkeyframe1tokeyframe2EndedHandler);
+                            }
+                        }
+                        var component = document.querySelector('.bp1-desktophd1 .bp1-navbar .bp1-logocopy-fUOb');
+                        component.style['pointer-events'] = 'auto';
+                        component.addEventListener('click', clicklogoCopyfUObfKuc8QP1Handler);
+                        function resetlogoCopyfUObfKuc8QP() {
+                            var component = document.querySelector('.bp1-desktophd1 .bp1-navbar .bp1-logocopy-fUOb');
+                            if (!component) {
+                                return;
+                            }
+                            component.addEventListener(transitionEvent, transitionlogoCopyfUObfKuc8QPkeyframe1tokeyframe2EndedHandler);
+                            removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                            addClass(component, 'keyframe2');
+                            addClass(component, 'keyframe1-to-keyframe2');
+                        }
+                        (function() {
+                            var component = document.querySelector('.bp1-logocopy-fUOb');
+                            var event = new Event('click');
+                            component.dispatchEvent(event);
+                        })();
+                    </script>
+                </div>
+                <div anima-show-on-scroll="" class="bp1-welcometo bp1-anima-animate-enter2">
+                    <span class="bp1-span1">welcome</span><span class="bp1-span2"> </span><span class="bp1-span3">to</span>
+                </div>
+                <div class="bp1-ignite">
+                    ignite
+                </div>
+                <div anima-show-on-scroll="" class="bp1-about bp1-anima-animate-enter3">
+                    about_
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <script>
+            function AnimaShowOnScroll() {
+                this.toShow = [];
+                this.nextEventY = undefined;
+            }
+            AnimaShowOnScroll.prototype.show = function(e) {
+                e.style.display = "";
+            };
+            AnimaShowOnScroll.prototype.hide = function(e) {
+                e.style.display = "none";
+            };
+            AnimaShowOnScroll.prototype.getTop = function(e) {
+                if (e.animaTop != undefined && e.animaTop != 0) {
+                    return e.animaTop;
+                }
+                var top = 0;
+                var iter = e;
+                do {
+                    top += iter.offsetTop || 0;
+                    iter = iter.offsetParent;
+                } while (iter);
+                e.animaTop = top;
+                return top;
+            };
+            AnimaShowOnScroll.prototype.onScroll = function() {
+                var screenBottom = window.pageYOffset + window.innerHeight;
+                if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+                    return;
+                }
+                this.nextEventY = undefined;
+                for (var i = 0; i < this.toShow.length; i++) {
+                    var e = this.toShow[i];
+                    var top = this.getTop(e);
+                    if (top < screenBottom) {
+                        this.show(e);
+                        this.toShow.shift();
+                        i--;
+                    } else {
+                        this.nextEventY = top;
+                        break;
+                    }
+                }
+            };
+            AnimaShowOnScroll.prototype.resetScrolling = function() {
+                var screenBottom = window.pageYOffset + window.innerHeight;
+                for (var i = 0; i < this.toShow.length; i++) {
+                    var e = this.toShow[i];
+                    this.show(e);
+                }
+                this.toShow = [];
+                this.nextEventY == undefined;
+                var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+                itemsToShowOnScroll = itemsToShowOnScroll.filter(function(e) {
+                    return e.getAttribute("anima-show-on-scroll") != undefined;
+                });
+                var getTop = this.getTop;
+                itemsToShowOnScroll.sort(function(a, b) {
+                    return getTop(a) - getTop(b);
+                });
+                for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+                    var e = itemsToShowOnScroll[i];
+                    var top = this.getTop(e);
+                    if (top < screenBottom) {
+                        continue;
+                    }
+                    this.toShow.push(e);
+                    this.hide(e);
+                    this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+                }
+            };
+            AnimaShowOnScroll.prototype.handleEvent = function(e) {
+                switch (e.type) {
+                    case "scroll":
+                        this.onScroll();
+                        break;
+                    case "resize":
+                        this.resetScrolling();
+                        break;
+                }
+            };
+            AnimaShowOnScroll.prototype.init = function() {
+                this.resetScrolling();
+                window.addEventListener("scroll", this);
+                window.addEventListener("resize", this);
+            };
+            setTimeout(function() {
+                var animaShowOnScroll = new AnimaShowOnScroll();
+                animaShowOnScroll.init();
+            }, 250);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>
