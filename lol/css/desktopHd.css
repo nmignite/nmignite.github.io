@@ -1,0 +1,723 @@
+
+@font-face {
+                          font-family: "Moon2.0-Bold";
+                          src: url('../fonts/Moon2.0-Bold.otf') format("opentype");
+                        }
+                        
+.desktophd {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(199, 63, 63, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-animate-enter {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter1 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
+}
+@-webkit-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter2 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.desktophd .navimumbaicampus {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 74px;
+  width               : 371px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -185px;
+  height              : 1px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : -886px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .langaming {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 367px;
+  height              : 711px;
+  width               : 505px;
+  position            : absolute;
+  margin              : 0;
+  left                : 472px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.desktophd .langaming:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.desktophd .vertical {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 440px;
+  height              : 584px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1006px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.desktophd .vertical:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.desktophd .workshop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 449px;
+  height              : 584px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.desktophd .workshop:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.desktophd .events {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 170px;
+  height              : auto;
+  width               : 418px;
+  position            : absolute;
+  margin              : 0;
+  left                : 554px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Moon2.0-Bold", Helvetica, Arial, serif;
+  font-size           : 120.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 144.0px;
+}
+.desktophd .group {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 3.82%;
+  top                 : 6.54%;
+  height              : 5.27%;
+  width               : 3.75%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .group .rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .group .rectanglecopy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 44px;
+  height              : 10px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .group .rectanglecopy2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 22px;
+  height              : 10px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 152px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 705px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 70px;
+  height              : 81px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : 32px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : 54px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 82px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 43px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : 51px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 103px;
+  height              : 49px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 81px;
+  height              : 46px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 74px;
+  height              : 47px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 79px;
+  height              : 19px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 36px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 83px;
+  height              : 19px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : 31px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 34px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 47px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 42px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 25px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 93px;
+  height              : 20px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 109px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
