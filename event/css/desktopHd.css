@@ -1,5 +1,9 @@
 
-
+@font-face {
+                          font-family: "Moon2.0-Bold";
+                          src: url('../fonts/Moon2.0-Bold.otf') format("opentype");
+                        }
+                        
 .desktophd {
   width               : 100%;
   min-width           : 1440px;
@@ -104,6 +108,160 @@ div {
   transform: translate(0,0);
     }
 }
+.anima-animate-enter1 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter1-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
+}
+@-webkit-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter2 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter2-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
 .desktophd .navimumbaicampus {
   background-color    : rgba(255,255,255,0.0);
   top                 : 47px;
@@ -130,33 +288,137 @@ div {
 }
 .desktophd .langaming {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 337px;
-  height              : 1032px;
-  width               : 732px;
+  top                 : 367px;
+  height              : 711px;
+  width               : 505px;
   position            : absolute;
   margin              : 0;
-  left                : 358px;
+  left                : 472px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.desktophd .langaming:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.desktophd .vertical {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 440px;
+  height              : 584px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1006px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.desktophd .vertical:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.desktophd .workshop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 449px;
+  height              : 584px;
+  width               : 413px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.desktophd .workshop:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.desktophd .events {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 170px;
+  height              : auto;
+  width               : 418px;
+  position            : absolute;
+  margin              : 0;
+  left                : 554px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Moon2.0-Bold", Helvetica, Arial, serif;
+  font-size           : 120.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 144.0px;
+}
+.desktophd .group {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 3.82%;
+  top                 : 6.54%;
+  height              : 5.27%;
+  width               : 3.75%;
+  position            : absolute;
+  margin              : 0;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktophd .fulllogo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 147px;
-  width               : 112px;
+.desktophd .group .rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 54px;
   position            : absolute;
   margin              : 0;
-  left                : 695px;
+  left                : 0px;
+  border-radius       : 2px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktophd .fulllogo .path19 {
+.desktophd .group .rectanglecopy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 44px;
+  height              : 10px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .group .rectanglecopy2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 22px;
+  height              : 10px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 69px;
-  height              : 78px;
-  width               : 35px;
+  top                 : 18px;
+  height              : 152px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 705px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 70px;
+  height              : 81px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 15px;
@@ -164,143 +426,11 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktophd .fulllogo .path1 {
+.desktophd .batteryasset1 .path1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 95px;
-  height              : 52px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 69px;
-  height              : 73px;
-  width               : 19px;
-  position            : absolute;
-  margin              : 0;
-  left                : 56px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 99px;
-  height              : 48px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 100px;
-  height              : 45px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 80px;
-  height              : 43px;
+  top                 : 82px;
+  height              : 32px;
   width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 97px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 90px;
-  height              : 17px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 107px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 60px;
-  height              : 33px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 97px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 50px;
-  height              : 29px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 84px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
-  height              : 19px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 84px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 72px;
-  height              : 44px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 71px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 46px;
-  height              : 42px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 54px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 80px;
-  height              : 30px;
-  width               : 7px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -308,10 +438,34 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktophd .fulllogo .path13 {
+.desktophd .batteryasset1 .path2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 52px;
-  height              : 40px;
+  top                 : 97px;
+  height              : 54px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 82px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 43px;
   width               : 13px;
   position            : absolute;
   margin              : 0;
@@ -320,23 +474,83 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktophd .fulllogo .path14 {
+.desktophd .batteryasset1 .path5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 63px;
-  height              : 33px;
-  width               : 10px;
+  top                 : 100px;
+  height              : 51px;
+  width               : 20px;
   position            : absolute;
   margin              : 0;
-  left                : 38px;
+  left                : 59px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktophd .fulllogo .path15 {
+.desktophd .batteryasset1 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 103px;
+  height              : 49px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 81px;
-  height              : 18px;
+  height              : 46px;
   width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 74px;
+  height              : 47px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 79px;
+  height              : 19px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 36px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 83px;
+  height              : 19px;
+  width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 40px;
@@ -344,62 +558,86 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktophd .fulllogo .path16 {
+.desktophd .batteryasset1 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : 31px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 34px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 47px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path15 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
-  height              : 40px;
+  height              : 42px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 42px;
+  left                : 44px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktophd .fulllogo .path17 {
+.desktophd .batteryasset1 .path16 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 33px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 43px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .fulllogo .path18 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
-  height              : 23px;
+  top                 : 36px;
+  height              : 25px;
   width               : 26px;
   position            : absolute;
   margin              : 0;
-  left                : 63px;
+  left                : 65px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktophd .nounmenu1780117 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 65px;
-  height              : 56px;
-  width               : 64px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1309px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktophd .nounmenu1780117 .shape {
+.desktophd .batteryasset1 .path17 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 64px;
-  position            : relative;
+  height              : 34px;
+  width               : 14px;
+  position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 44px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .batteryasset1 .path18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 93px;
+  height              : 20px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 109px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
