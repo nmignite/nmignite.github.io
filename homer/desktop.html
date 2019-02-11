@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/desktop.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(1, 23, 57, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="desktop"/>
+        <div class="bp1-desktophd">
+            <img anima-src="./img/desktop-hd-rectangle.png" class="bp1-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img anima-src="./img/desktop-hd-rectangle-1.png" class="bp1-rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img anima-src="./img/desktop-hd-rectangle-2.png" class="bp1-rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <div class="bp1-navbar">
+                <img anima-src="./img/desktop-hd-rectangle-3.png" class="bp1-rectangle3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <a href="/event/events.html">
+                    <div class="bp1-events1">
+                        events
+                    </div>
+                </a>
+                <a href="nmignite.github.io/events.html">
+                    <div class="bp1-about1">
+                        about
+                    </div>
+                </a>
+                <div class="bp1-register">
+                    register
+                </div>
+                <div class="bp1-contact">
+                    contact
+                </div>
+            </div>
+            <style>
+                .bp1-desktophd .bp1-logocopy-WPBs * {
+                    box-sizing          : border-box;
+                }
+                .bp1-desktophd .bp1-logocopy-WPBs {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : 0.03%;
+                    height              : 2.05%;
+                    width               : 5.35%;
+                    position            : fixed;
+                    margin              : 0;
+                    left                : 2.36%;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp1-desktophd .bp1-logocopy-WPBs .bp1-logo {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : 0px;
+                    height              : 127px;
+                    width               : 77px;
+                    position            : relative;
+                    margin              : 0;
+                    left                : 0px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp1-desktophd .bp1-logocopy-WPBs.keyframe1-to-keyframe2 .bp1-logo {
+                    transition          : all 0.2s ease-in-out 0.0s;
+                    left                : -14px;
+                }
+                .bp1-desktophd .bp1-logocopy-WPBs.keyframe2 .bp1-logo {
+                    left                : -14px;
+                }
+            </style>
+            <div id="V7MljaE">
+                <div anima-show-on-scroll="" class="bp1-logocopy bp1-anima-animate-enter1 bp1-logocopy-WPBs component keyframe1" data-initial-state="keyframe1">
+                    <img anima-show-on-scroll="" class="bp1-logo bp1-anima-animate-enter" src="./img/desktop-hd-logo-1@2x.png"/>
+                </div>
+            </div>
+            <script>
+                if (typeof String.prototype.endsWith !== 'function') {
+                    String.prototype.endsWith = function(suffix) {
+                        return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                    };
+                }
+                if (!String.prototype.startsWith) {
+                    String.prototype.startsWith = function(searchString, position) {
+                        position = position || 0;
+                        return this.indexOf(searchString, position) === position;
+                    };
+                }
+                if (!Array.prototype.forEach) {
+                    Array.prototype.forEach = function(callback) {
+                        var T, k;
+                        if (this == null) {
+                            throw new TypeError('this is null or not defined');
+                        }
+                        var O = Object(this);
+                        var len = O.length >>> 0;
+                        if (typeof callback !== 'function') {
+                            throw new TypeError(callback + ' is not a function');
+                        }
+                        if (arguments.length > 1) {
+                            T = arguments[1];
+                        }
+                        k = 0;
+                        while (k < len) {
+                            var kValue;
+                            if (k in O) {
+                                kValue = O[k];
+                                callback.call(T, kValue, k, O);
+                            }
+                            k++;
+                        }
+                    };
+                }
+                function toArray(obj) {
+                    var array = [];
+                    for (var i = obj.length >>> 0; i--; ) {
+                        array[i] = obj[i];
+                    }
+                    return array;
+                }
+                function addClass(object, className) {
+                    object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                }
+                function removeAllClassesButFirst(component, skipClass) {
+                    var classList = component.classList;
+                    var componentClass = classList.item(0);
+                    var toRemove = [];
+                    var beforeComponent = true;
+                    toArray(classList).forEach(function(className) {
+                        beforeComponent = beforeComponent && className != 'component';
+                        if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                            toRemove.push(className);
+                        }
+                    });
+                    toRemove.forEach(function(className) {
+                        classList.remove(className);
+                    });
+                }
+                function applyState(component, stateClass) {
+                    var componentClass = component.classList.item(0);
+                    component.className = componentClass;
+                    component.classList.add(stateClass);
+                }
+                function isCurrentState(component, state) {
+                    var classList = component.classList;
+                    var rv = false;
+                    toArray(classList).forEach(function(className) {
+                        if (className.endsWith(state)) {
+                            rv = true;
+                        }
+                    });
+                    return rv;
+                }
+                function whichTransitionEvent() {
+                    var t, el = document.createElement("fakeelement");
+                    var transitions = {
+                        "transition": "transitionend",
+                        "OTransition": "oTransitionEnd",
+                        "MozTransition": "transitionend",
+                        "WebkitTransition": "webkitTransitionEnd"
+                    };
+                    for (t in transitions) {
+                        if (el.style[t] !== undefined) {
+                            return transitions[t];
+                        }
+                    }
+                }
+                var transitionEvent = whichTransitionEvent();
+                function clicklogoCopyWPBsV7MljaE1Handler(event) {
+                    var component = document.querySelector('.bp1-desktophd .bp1-logocopy-WPBs');
+                    if (isCurrentState(component, 'keyframe1')) {
+                        try {
+                            setTimeout(function() {
+                                var component = document.querySelector('.bp1-desktophd .bp1-logocopy-WPBs');
+                                component.addEventListener(transitionEvent, transitionlogoCopyWPBsV7MljaEkeyframe1tokeyframe2EndedHandler);
+                                removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                                addClass(component, 'keyframe2');
+                                addClass(component, 'keyframe1-to-keyframe2');
+                            }, 0);
+                        } catch (e) {
+                            console.log(e);
+                        }
+                    }
+                }
+                function transitionlogoCopyWPBsV7MljaEkeyframe1tokeyframe2EndedHandler(event) {
+                    if (event.target.className.trim() == 'bp1-logo' || event.target.className.startsWith('bp1-logo ')) {
+                        var component = document.querySelector('.bp1-desktophd .bp1-logocopy-WPBs');
+                        component.removeEventListener(transitionEvent, transitionlogoCopyWPBsV7MljaEkeyframe1tokeyframe2EndedHandler);
+                    }
+                }
+                var component = document.querySelector('.bp1-desktophd .bp1-logocopy-WPBs');
+                component.style['pointer-events'] = 'auto';
+                component.addEventListener('click', clicklogoCopyWPBsV7MljaE1Handler);
+                function resetlogoCopyWPBsV7MljaE() {
+                    var component = document.querySelector('.bp1-desktophd .bp1-logocopy-WPBs');
+                    if (!component) {
+                        return;
+                    }
+                    component.addEventListener(transitionEvent, transitionlogoCopyWPBsV7MljaEkeyframe1tokeyframe2EndedHandler);
+                    removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                    addClass(component, 'keyframe2');
+                    addClass(component, 'keyframe1-to-keyframe2');
+                }
+                (function() {
+                    var component = document.querySelector('.bp1-logocopy-WPBs');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                })();
+            </script>
+            <div anima-show-on-scroll="" class="bp1-welcometoignite bp1-anima-animate-enter2">
+                <span class="bp1-span1">welcome</span><span class="bp1-span2"> </span><span class="bp1-span3">to<br />ignite</span>
+            </div>
+            <div anima-show-on-scroll="" class="bp1-about bp1-anima-animate-enter3">
+                about_
+            </div>
+            <div class="bp1-narseemonjeeinstit">
+                Narsee Monjee Institute of Technology and Management has a rich and long-standing legacy of forging collaborations and building partnerships with the industry and the corporates while providing an excellent education to mentor the students into an industry-ready workforce.<br />NMIMS has established itself through opportunistic ideologies, and believes in providing its students with a plethora of enriching experiences to expose its students to new opportunities and inhibit a multi-lateral mindset so as to provide the most compound results for the companies they work for.<br /><br />The NMIMS Navi Mumbai Campus is situated in a rapidly growing educational hub of Kharghar in Navi Mumbai - in a city where thousands of students are willing to participate in such a tech-fest, making it a perfect opportunity to allow students to feed their curiosity.<br /><br />Techfests are shown to be really popular in attendance among students regardless of their educational specialisation, who are visibly livid and exuberantly passionate about technologies that enthral their senses. Students find it enriching and enchanting to immerse themselves in virtual and real-world technological games while simultaneously remaining keen to expand their lexicons and knowledge by attending workshops.<br />Techfests provide a perfect window for students to learn and be inspired with fun and games.<br /><br />IGNITE 2019 is our attempt to generate interest and showcase opportunities to the students in an entertaining and enriching way by offering riveting gameplay and knowledge enhancing programs.<br />
+            </div>
+            <div anima-show-on-scroll="" class="bp1-events bp1-anima-animate-enter4">
+                events_
+            </div>
+        </div>
+        <div class="bp2-tabletportrait">
+            <img anima-src="./img/tablet-portrait-navi-mumbai-campus.png" class="bp2-navimumbaicampus" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <div class="bp2-events">
+                EVENTS
+            </div>
+            <div class="bp2-register">
+                REGISTER
+            </div>
+            <div class="bp2-teaser">
+                TEASER
+            </div>
+            <div class="bp2-about">
+                ABOUT
+            </div>
+            <style>
+                .bp2-tabletportrait .bp2-logo-5Jua * {
+                    box-sizing          : border-box;
+                }
+                .bp2-tabletportrait .bp2-logo-5Jua {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : calc(50.00% - 121px);
+                    height              : 242px;
+                    width               : 146px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : calc(50.00% - 73px);
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp2-tabletportrait .bp2-logo-5Jua .bp2-logo1 {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : 0px;
+                    height              : 242px;
+                    width               : 146px;
+                    position            : relative;
+                    margin              : 0;
+                    left                : 0px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp2-tabletportrait .bp2-logo-5Jua.keyframe1-to-keyframe2 .bp2-logo1 {
+                    transition          : all 0.2s ease-in-out 0.0s;
+                    left                : -14px;
+                }
+                .bp2-tabletportrait .bp2-logo-5Jua.keyframe2 .bp2-logo1 {
+                    left                : -14px;
+                }
+            </style>
+            <div id="ib2tYIB">
+                <div anima-show-on-scroll="" class="bp2-logo bp2-anima-animate-enter1 bp2-logo-5Jua component keyframe1" data-initial-state="keyframe1">
+                    <img anima-show-on-scroll="" class="bp2-logo1 bp2-anima-animate-enter" src="./img/tablet-portrait-logo@2x.png"/>
+                </div>
+            </div>
+            <script>
+                if (typeof String.prototype.endsWith !== 'function') {
+                    String.prototype.endsWith = function(suffix) {
+                        return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                    };
+                }
+                if (!String.prototype.startsWith) {
+                    String.prototype.startsWith = function(searchString, position) {
+                        position = position || 0;
+                        return this.indexOf(searchString, position) === position;
+                    };
+                }
+                if (!Array.prototype.forEach) {
+                    Array.prototype.forEach = function(callback) {
+                        var T, k;
+                        if (this == null) {
+                            throw new TypeError('this is null or not defined');
+                        }
+                        var O = Object(this);
+                        var len = O.length >>> 0;
+                        if (typeof callback !== 'function') {
+                            throw new TypeError(callback + ' is not a function');
+                        }
+                        if (arguments.length > 1) {
+                            T = arguments[1];
+                        }
+                        k = 0;
+                        while (k < len) {
+                            var kValue;
+                            if (k in O) {
+                                kValue = O[k];
+                                callback.call(T, kValue, k, O);
+                            }
+                            k++;
+                        }
+                    };
+                }
+                function toArray(obj) {
+                    var array = [];
+                    for (var i = obj.length >>> 0; i--; ) {
+                        array[i] = obj[i];
+                    }
+                    return array;
+                }
+                function addClass(object, className) {
+                    object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                }
+                function removeAllClassesButFirst(component, skipClass) {
+                    var classList = component.classList;
+                    var componentClass = classList.item(0);
+                    var toRemove = [];
+                    var beforeComponent = true;
+                    toArray(classList).forEach(function(className) {
+                        beforeComponent = beforeComponent && className != 'component';
+                        if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                            toRemove.push(className);
+                        }
+                    });
+                    toRemove.forEach(function(className) {
+                        classList.remove(className);
+                    });
+                }
+                function applyState(component, stateClass) {
+                    var componentClass = component.classList.item(0);
+                    component.className = componentClass;
+                    component.classList.add(stateClass);
+                }
+                function isCurrentState(component, state) {
+                    var classList = component.classList;
+                    var rv = false;
+                    toArray(classList).forEach(function(className) {
+                        if (className.endsWith(state)) {
+                            rv = true;
+                        }
+                    });
+                    return rv;
+                }
+                function whichTransitionEvent() {
+                    var t, el = document.createElement("fakeelement");
+                    var transitions = {
+                        "transition": "transitionend",
+                        "OTransition": "oTransitionEnd",
+                        "MozTransition": "transitionend",
+                        "WebkitTransition": "webkitTransitionEnd"
+                    };
+                    for (t in transitions) {
+                        if (el.style[t] !== undefined) {
+                            return transitions[t];
+                        }
+                    }
+                }
+                var transitionEvent = whichTransitionEvent();
+                function clicklogo5Juaib2tYIB1Handler(event) {
+                    var component = document.querySelector('.bp2-tabletportrait .bp2-logo-5Jua');
+                    if (isCurrentState(component, 'keyframe1')) {
+                        try {
+                            setTimeout(function() {
+                                var component = document.querySelector('.bp2-tabletportrait .bp2-logo-5Jua');
+                                component.addEventListener(transitionEvent, transitionlogo5Juaib2tYIBkeyframe1tokeyframe2EndedHandler);
+                                removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                                addClass(component, 'keyframe2');
+                                addClass(component, 'keyframe1-to-keyframe2');
+                            }, 0);
+                        } catch (e) {
+                            console.log(e);
+                        }
+                    }
+                }
+                function transitionlogo5Juaib2tYIBkeyframe1tokeyframe2EndedHandler(event) {
+                    if (event.target.className.trim() == 'bp2-logo1' || event.target.className.startsWith('bp2-logo1 ')) {
+                        var component = document.querySelector('.bp2-tabletportrait .bp2-logo-5Jua');
+                        component.removeEventListener(transitionEvent, transitionlogo5Juaib2tYIBkeyframe1tokeyframe2EndedHandler);
+                    }
+                }
+                var component = document.querySelector('.bp2-tabletportrait .bp2-logo-5Jua');
+                component.style['pointer-events'] = 'auto';
+                component.addEventListener('click', clicklogo5Juaib2tYIB1Handler);
+                function resetlogo5Juaib2tYIB() {
+                    var component = document.querySelector('.bp2-tabletportrait .bp2-logo-5Jua');
+                    if (!component) {
+                        return;
+                    }
+                    component.addEventListener(transitionEvent, transitionlogo5Juaib2tYIBkeyframe1tokeyframe2EndedHandler);
+                    removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                    addClass(component, 'keyframe2');
+                    addClass(component, 'keyframe1-to-keyframe2');
+                }
+                (function() {
+                    var component = document.querySelector('.bp2-logo-5Jua');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                })();
+            </script>
+            <img anima-src="./img/tablet-portrait-15505.png" class="bp2-a15505" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+        </div>
+        <div class="bp3-mobileportrait">
+            <img anima-src="./img/mobile-portrait-navi-mumbai-campus@2x.png" class="bp3-navimumbaicampus" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <style>
+                .bp3-mobileportrait .bp3-logo-NiqP * {
+                    box-sizing          : border-box;
+                }
+                .bp3-mobileportrait .bp3-logo-NiqP {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : calc(50.00% - 325px);
+                    height              : 242px;
+                    width               : 146px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : calc(50.00% - 73px);
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp3-mobileportrait .bp3-logo-NiqP .bp3-logo1 {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : 0px;
+                    height              : 242px;
+                    width               : 146px;
+                    position            : relative;
+                    margin              : 0;
+                    left                : 0px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp3-mobileportrait .bp3-logo-NiqP.keyframe1-to-keyframe2 .bp3-logo1 {
+                    transition          : all 0.2s ease-in-out 0.0s;
+                    left                : -14px;
+                }
+                .bp3-mobileportrait .bp3-logo-NiqP.keyframe2 .bp3-logo1 {
+                    left                : -14px;
+                }
+            </style>
+            <div id="YUXp9zU">
+                <div anima-show-on-scroll="" class="bp3-logo bp3-anima-animate-enter1 bp3-logo-NiqP component keyframe1" data-initial-state="keyframe1">
+                    <img anima-show-on-scroll="" class="bp3-logo1 bp3-anima-animate-enter" src="./img/tablet-portrait-logo@2x.png"/>
+                </div>
+            </div>
+            <script>
+                if (typeof String.prototype.endsWith !== 'function') {
+                    String.prototype.endsWith = function(suffix) {
+                        return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                    };
+                }
+                if (!String.prototype.startsWith) {
+                    String.prototype.startsWith = function(searchString, position) {
+                        position = position || 0;
+                        return this.indexOf(searchString, position) === position;
+                    };
+                }
+                if (!Array.prototype.forEach) {
+                    Array.prototype.forEach = function(callback) {
+                        var T, k;
+                        if (this == null) {
+                            throw new TypeError('this is null or not defined');
+                        }
+                        var O = Object(this);
+                        var len = O.length >>> 0;
+                        if (typeof callback !== 'function') {
+                            throw new TypeError(callback + ' is not a function');
+                        }
+                        if (arguments.length > 1) {
+                            T = arguments[1];
+                        }
+                        k = 0;
+                        while (k < len) {
+                            var kValue;
+                            if (k in O) {
+                                kValue = O[k];
+                                callback.call(T, kValue, k, O);
+                            }
+                            k++;
+                        }
+                    };
+                }
+                function toArray(obj) {
+                    var array = [];
+                    for (var i = obj.length >>> 0; i--; ) {
+                        array[i] = obj[i];
+                    }
+                    return array;
+                }
+                function addClass(object, className) {
+                    object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                }
+                function removeAllClassesButFirst(component, skipClass) {
+                    var classList = component.classList;
+                    var componentClass = classList.item(0);
+                    var toRemove = [];
+                    var beforeComponent = true;
+                    toArray(classList).forEach(function(className) {
+                        beforeComponent = beforeComponent && className != 'component';
+                        if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                            toRemove.push(className);
+                        }
+                    });
+                    toRemove.forEach(function(className) {
+                        classList.remove(className);
+                    });
+                }
+                function applyState(component, stateClass) {
+                    var componentClass = component.classList.item(0);
+                    component.className = componentClass;
+                    component.classList.add(stateClass);
+                }
+                function isCurrentState(component, state) {
+                    var classList = component.classList;
+                    var rv = false;
+                    toArray(classList).forEach(function(className) {
+                        if (className.endsWith(state)) {
+                            rv = true;
+                        }
+                    });
+                    return rv;
+                }
+                function whichTransitionEvent() {
+                    var t, el = document.createElement("fakeelement");
+                    var transitions = {
+                        "transition": "transitionend",
+                        "OTransition": "oTransitionEnd",
+                        "MozTransition": "transitionend",
+                        "WebkitTransition": "webkitTransitionEnd"
+                    };
+                    for (t in transitions) {
+                        if (el.style[t] !== undefined) {
+                            return transitions[t];
+                        }
+                    }
+                }
+                var transitionEvent = whichTransitionEvent();
+                function clicklogoNiqPYUXp9zU1Handler(event) {
+                    var component = document.querySelector('.bp3-mobileportrait .bp3-logo-NiqP');
+                    if (isCurrentState(component, 'keyframe1')) {
+                        try {
+                            setTimeout(function() {
+                                var component = document.querySelector('.bp3-mobileportrait .bp3-logo-NiqP');
+                                component.addEventListener(transitionEvent, transitionlogoNiqPYUXp9zUkeyframe1tokeyframe2EndedHandler);
+                                removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                                addClass(component, 'keyframe2');
+                                addClass(component, 'keyframe1-to-keyframe2');
+                            }, 0);
+                        } catch (e) {
+                            console.log(e);
+                        }
+                    }
+                }
+                function transitionlogoNiqPYUXp9zUkeyframe1tokeyframe2EndedHandler(event) {
+                    if (event.target.className.trim() == 'bp3-logo1' || event.target.className.startsWith('bp3-logo1 ')) {
+                        var component = document.querySelector('.bp3-mobileportrait .bp3-logo-NiqP');
+                        component.removeEventListener(transitionEvent, transitionlogoNiqPYUXp9zUkeyframe1tokeyframe2EndedHandler);
+                    }
+                }
+                var component = document.querySelector('.bp3-mobileportrait .bp3-logo-NiqP');
+                component.style['pointer-events'] = 'auto';
+                component.addEventListener('click', clicklogoNiqPYUXp9zU1Handler);
+                function resetlogoNiqPYUXp9zU() {
+                    var component = document.querySelector('.bp3-mobileportrait .bp3-logo-NiqP');
+                    if (!component) {
+                        return;
+                    }
+                    component.addEventListener(transitionEvent, transitionlogoNiqPYUXp9zUkeyframe1tokeyframe2EndedHandler);
+                    removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                    addClass(component, 'keyframe2');
+                    addClass(component, 'keyframe1-to-keyframe2');
+                }
+                (function() {
+                    var component = document.querySelector('.bp3-logo-NiqP');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                })();
+            </script>
+            <style>
+                .bp3-mobileportrait .bp3-group-SGjX * {
+                    box-sizing          : border-box;
+                }
+                .bp3-mobileportrait .bp3-group-SGjX {
+                    pointer-events      : none;
+                    background-color    : rgba(255,255,255,0.0);
+                    top                 : 85px;
+                    height              : 34px;
+                    width               : 39px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : 263px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp3-mobileportrait .bp3-group-SGjX .bp3-rectangle {
+                    pointer-events      : none;
+                    background-color    : rgba(215, 215, 215, 1.0);
+                    top                 : 0px;
+                    height              : 6px;
+                    width               : 39px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : 0px;
+                    border-radius       : 2px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp3-mobileportrait .bp3-group-SGjX .bp3-rectanglecopy {
+                    pointer-events      : none;
+                    background-color    : rgba(215, 215, 215, 1.0);
+                    top                 : 28px;
+                    height              : 6px;
+                    width               : 39px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : 0px;
+                    border-radius       : 2px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+                .bp3-mobileportrait .bp3-group-SGjX .bp3-rectanglecopy2 {
+                    pointer-events      : none;
+                    background-color    : rgba(215, 215, 215, 1.0);
+                    top                 : 14px;
+                    height              : 6px;
+                    width               : 39px;
+                    position            : absolute;
+                    margin              : 0;
+                    left                : 0px;
+                    border-radius       : 2px;
+                    -ms-transform       : rotate(0deg); /* IE 9 */
+                    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                    transform           : rotate(0deg);
+                }
+            </style>
+            <div id="SfMDs9f">
+                <div class="bp3-group bp3-group-SGjX component state1" data-initial-state="state1">
+                    <div class="bp3-rectangle">
+                    </div>
+                    <div class="bp3-rectanglecopy">
+                    </div>
+                    <div class="bp3-rectanglecopy2">
+                    </div>
+                </div>
+            </div>
+            <script>
+                if (typeof String.prototype.endsWith !== 'function') {
+                    String.prototype.endsWith = function(suffix) {
+                        return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                    };
+                }
+                if (!String.prototype.startsWith) {
+                    String.prototype.startsWith = function(searchString, position) {
+                        position = position || 0;
+                        return this.indexOf(searchString, position) === position;
+                    };
+                }
+                if (!Array.prototype.forEach) {
+                    Array.prototype.forEach = function(callback) {
+                        var T, k;
+                        if (this == null) {
+                            throw new TypeError('this is null or not defined');
+                        }
+                        var O = Object(this);
+                        var len = O.length >>> 0;
+                        if (typeof callback !== 'function') {
+                            throw new TypeError(callback + ' is not a function');
+                        }
+                        if (arguments.length > 1) {
+                            T = arguments[1];
+                        }
+                        k = 0;
+                        while (k < len) {
+                            var kValue;
+                            if (k in O) {
+                                kValue = O[k];
+                                callback.call(T, kValue, k, O);
+                            }
+                            k++;
+                        }
+                    };
+                }
+                function toArray(obj) {
+                    var array = [];
+                    for (var i = obj.length >>> 0; i--; ) {
+                        array[i] = obj[i];
+                    }
+                    return array;
+                }
+                function addClass(object, className) {
+                    object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                }
+                function removeAllClassesButFirst(component, skipClass) {
+                    var classList = component.classList;
+                    var componentClass = classList.item(0);
+                    var toRemove = [];
+                    var beforeComponent = true;
+                    toArray(classList).forEach(function(className) {
+                        beforeComponent = beforeComponent && className != 'component';
+                        if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                            toRemove.push(className);
+                        }
+                    });
+                    toRemove.forEach(function(className) {
+                        classList.remove(className);
+                    });
+                }
+                function applyState(component, stateClass) {
+                    var componentClass = component.classList.item(0);
+                    component.className = componentClass;
+                    component.classList.add(stateClass);
+                }
+                function isCurrentState(component, state) {
+                    var classList = component.classList;
+                    var rv = false;
+                    toArray(classList).forEach(function(className) {
+                        if (className.endsWith(state)) {
+                            rv = true;
+                        }
+                    });
+                    return rv;
+                }
+                function whichTransitionEvent() {
+                    var t, el = document.createElement("fakeelement");
+                    var transitions = {
+                        "transition": "transitionend",
+                        "OTransition": "oTransitionEnd",
+                        "MozTransition": "transitionend",
+                        "WebkitTransition": "webkitTransitionEnd"
+                    };
+                    for (t in transitions) {
+                        if (el.style[t] !== undefined) {
+                            return transitions[t];
+                        }
+                    }
+                }
+                var transitionEvent = whichTransitionEvent();
+            </script>
+        </div>
+        <div class="bp4-desktop">
+            <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
+                <div class="bp4-navbar">
+                    <img anima-src="./img/desktop-rectangle.png" class="bp4-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <a href="/event/events.html">
+                        <div class="bp4-events">
+                            EVENTS
+                        </div>
+                    </a>
+                    <a href="nmignite.github.io/events.html">
+                        <div class="bp4-about">
+                            ABOUT
+                        </div>
+                    </a>
+                    <div class="bp4-register">
+                        REGISTER
+                    </div>
+                    <div class="bp4-teaser">
+                        TEASER
+                    </div>
+                    <style>
+                        .bp4-desktop .bp4-navbar .bp4-logocopy-ARQM * {
+                            box-sizing          : border-box;
+                        }
+                        .bp4-desktop .bp4-navbar .bp4-logocopy-ARQM {
+                            pointer-events      : none;
+                            background-color    : rgba(255,255,255,0.0);
+                            bottom              : -0.68%;
+                            height              : 91.89%;
+                            width               : 15.57%;
+                            position            : absolute;
+                            margin              : 0;
+                            left                : 1.33%;
+                            -ms-transform       : rotate(0deg); /* IE 9 */
+                            -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                            transform           : rotate(0deg);
+                        }
+                        .bp4-desktop .bp4-navbar .bp4-logocopy-ARQM .bp4-logo {
+                            pointer-events      : none;
+                            background-color    : rgba(255,255,255,0.0);
+                            top                 : 0px;
+                            height              : 272px;
+                            width               : 164px;
+                            position            : relative;
+                            margin              : 0;
+                            left                : 0px;
+                            -ms-transform       : rotate(0deg); /* IE 9 */
+                            -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                            transform           : rotate(0deg);
+                        }
+                        .bp4-desktop .bp4-navbar .bp4-logocopy-ARQM.keyframe1-to-keyframe2 .bp4-logo {
+                            transition          : all 0.2s ease-in-out 0.0s;
+                            left                : -14px;
+                        }
+                        .bp4-desktop .bp4-navbar .bp4-logocopy-ARQM.keyframe2 .bp4-logo {
+                            left                : -14px;
+                        }
+                    </style>
+                    <div id="3XgfJEa">
+                        <div anima-show-on-scroll="" class="bp4-logocopy bp4-anima-animate-enter1 bp4-logocopy-ARQM component keyframe1" data-initial-state="keyframe1">
+                            <img anima-show-on-scroll="" class="bp4-logo bp4-anima-animate-enter" src="./img/desktop-logo@2x.png"/>
+                        </div>
+                    </div>
+                    <script>
+                        if (typeof String.prototype.endsWith !== 'function') {
+                            String.prototype.endsWith = function(suffix) {
+                                return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                            };
+                        }
+                        if (!String.prototype.startsWith) {
+                            String.prototype.startsWith = function(searchString, position) {
+                                position = position || 0;
+                                return this.indexOf(searchString, position) === position;
+                            };
+                        }
+                        if (!Array.prototype.forEach) {
+                            Array.prototype.forEach = function(callback) {
+                                var T, k;
+                                if (this == null) {
+                                    throw new TypeError('this is null or not defined');
+                                }
+                                var O = Object(this);
+                                var len = O.length >>> 0;
+                                if (typeof callback !== 'function') {
+                                    throw new TypeError(callback + ' is not a function');
+                                }
+                                if (arguments.length > 1) {
+                                    T = arguments[1];
+                                }
+                                k = 0;
+                                while (k < len) {
+                                    var kValue;
+                                    if (k in O) {
+                                        kValue = O[k];
+                                        callback.call(T, kValue, k, O);
+                                    }
+                                    k++;
+                                }
+                            };
+                        }
+                        function toArray(obj) {
+                            var array = [];
+                            for (var i = obj.length >>> 0; i--; ) {
+                                array[i] = obj[i];
+                            }
+                            return array;
+                        }
+                        function addClass(object, className) {
+                            object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                        }
+                        function removeAllClassesButFirst(component, skipClass) {
+                            var classList = component.classList;
+                            var componentClass = classList.item(0);
+                            var toRemove = [];
+                            var beforeComponent = true;
+                            toArray(classList).forEach(function(className) {
+                                beforeComponent = beforeComponent && className != 'component';
+                                if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                                    toRemove.push(className);
+                                }
+                            });
+                            toRemove.forEach(function(className) {
+                                classList.remove(className);
+                            });
+                        }
+                        function applyState(component, stateClass) {
+                            var componentClass = component.classList.item(0);
+                            component.className = componentClass;
+                            component.classList.add(stateClass);
+                        }
+                        function isCurrentState(component, state) {
+                            var classList = component.classList;
+                            var rv = false;
+                            toArray(classList).forEach(function(className) {
+                                if (className.endsWith(state)) {
+                                    rv = true;
+                                }
+                            });
+                            return rv;
+                        }
+                        function whichTransitionEvent() {
+                            var t, el = document.createElement("fakeelement");
+                            var transitions = {
+                                "transition": "transitionend",
+                                "OTransition": "oTransitionEnd",
+                                "MozTransition": "transitionend",
+                                "WebkitTransition": "webkitTransitionEnd"
+                            };
+                            for (t in transitions) {
+                                if (el.style[t] !== undefined) {
+                                    return transitions[t];
+                                }
+                            }
+                        }
+                        var transitionEvent = whichTransitionEvent();
+                        function clicklogoCopyARQM3XgfJEa1Handler(event) {
+                            var component = document.querySelector('.bp4-desktop .bp4-navbar .bp4-logocopy-ARQM');
+                            if (isCurrentState(component, 'keyframe1')) {
+                                try {
+                                    setTimeout(function() {
+                                        var component = document.querySelector('.bp4-desktop .bp4-navbar .bp4-logocopy-ARQM');
+                                        component.addEventListener(transitionEvent, transitionlogoCopyARQM3XgfJEakeyframe1tokeyframe2EndedHandler);
+                                        removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                                        addClass(component, 'keyframe2');
+                                        addClass(component, 'keyframe1-to-keyframe2');
+                                    }, 0);
+                                } catch (e) {
+                                    console.log(e);
+                                }
+                            }
+                        }
+                        function transitionlogoCopyARQM3XgfJEakeyframe1tokeyframe2EndedHandler(event) {
+                            if (event.target.className.trim() == 'bp4-logo' || event.target.className.startsWith('bp4-logo ')) {
+                                var component = document.querySelector('.bp4-desktop .bp4-navbar .bp4-logocopy-ARQM');
+                                component.removeEventListener(transitionEvent, transitionlogoCopyARQM3XgfJEakeyframe1tokeyframe2EndedHandler);
+                            }
+                        }
+                        var component = document.querySelector('.bp4-desktop .bp4-navbar .bp4-logocopy-ARQM');
+                        component.style['pointer-events'] = 'auto';
+                        component.addEventListener('click', clicklogoCopyARQM3XgfJEa1Handler);
+                        function resetlogoCopyARQM3XgfJEa() {
+                            var component = document.querySelector('.bp4-desktop .bp4-navbar .bp4-logocopy-ARQM');
+                            if (!component) {
+                                return;
+                            }
+                            component.addEventListener(transitionEvent, transitionlogoCopyARQM3XgfJEakeyframe1tokeyframe2EndedHandler);
+                            removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                            addClass(component, 'keyframe2');
+                            addClass(component, 'keyframe1-to-keyframe2');
+                        }
+                        (function() {
+                            var component = document.querySelector('.bp4-logocopy-ARQM');
+                            var event = new Event('click');
+                            component.dispatchEvent(event);
+                        })();
+                    </script>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <script>
+            function AnimaShowOnScroll() {
+                this.toShow = [];
+                this.nextEventY = undefined;
+            }
+            AnimaShowOnScroll.prototype.show = function(e) {
+                e.style.display = "";
+            };
+            AnimaShowOnScroll.prototype.hide = function(e) {
+                e.style.display = "none";
+            };
+            AnimaShowOnScroll.prototype.getTop = function(e) {
+                if (e.animaTop != undefined && e.animaTop != 0) {
+                    return e.animaTop;
+                }
+                var top = 0;
+                var iter = e;
+                do {
+                    top += iter.offsetTop || 0;
+                    iter = iter.offsetParent;
+                } while (iter);
+                e.animaTop = top;
+                return top;
+            };
+            AnimaShowOnScroll.prototype.onScroll = function() {
+                var screenBottom = window.pageYOffset + window.innerHeight;
+                if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+                    return;
+                }
+                this.nextEventY = undefined;
+                for (var i = 0; i < this.toShow.length; i++) {
+                    var e = this.toShow[i];
+                    var top = this.getTop(e);
+                    if (top < screenBottom) {
+                        this.show(e);
+                        this.toShow.shift();
+                        i--;
+                    } else {
+                        this.nextEventY = top;
+                        break;
+                    }
+                }
+            };
+            AnimaShowOnScroll.prototype.resetScrolling = function() {
+                var screenBottom = window.pageYOffset + window.innerHeight;
+                for (var i = 0; i < this.toShow.length; i++) {
+                    var e = this.toShow[i];
+                    this.show(e);
+                }
+                this.toShow = [];
+                this.nextEventY == undefined;
+                var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+                itemsToShowOnScroll = itemsToShowOnScroll.filter(function(e) {
+                    return e.getAttribute("anima-show-on-scroll") != undefined;
+                });
+                var getTop = this.getTop;
+                itemsToShowOnScroll.sort(function(a, b) {
+                    return getTop(a) - getTop(b);
+                });
+                for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+                    var e = itemsToShowOnScroll[i];
+                    var top = this.getTop(e);
+                    if (top < screenBottom) {
+                        continue;
+                    }
+                    this.toShow.push(e);
+                    this.hide(e);
+                    this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+                }
+            };
+            AnimaShowOnScroll.prototype.handleEvent = function(e) {
+                switch (e.type) {
+                    case "scroll":
+                        this.onScroll();
+                        break;
+                    case "resize":
+                        this.resetScrolling();
+                        break;
+                }
+            };
+            AnimaShowOnScroll.prototype.init = function() {
+                this.resetScrolling();
+                window.addEventListener("scroll", this);
+                window.addEventListener("resize", this);
+            };
+            setTimeout(function() {
+                var animaShowOnScroll = new AnimaShowOnScroll();
+                animaShowOnScroll.init();
+            }, 250);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>
